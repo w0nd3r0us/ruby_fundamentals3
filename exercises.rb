@@ -44,3 +44,17 @@ puts ages.sort
 puts ages.push(0)
 #5
 puts movies_hash[:aliens]
+
+#exercise 2
+#1
+puts fav_colours[-1]
+#2
+cities_hash[:Moscow] = 12800000
+#3
+coin_toss = coin_toss.reverse
+#4
+puts cities_hash[:Moscow]
+#5
+artists.each do |v|
+  puts "I think #{v} is great"
+end
