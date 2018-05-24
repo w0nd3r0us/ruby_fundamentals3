@@ -32,3 +32,15 @@ names_has = {
   :jeff => 35,
   :rajan => 27
 }
+
+#exercise 1
+#1
+puts coin_toss
+#2
+puts fav_colours[0]
+#3
+puts ages.sort
+#4
+puts ages.push(0)
+#5
+puts movies_hash[:aliens]
