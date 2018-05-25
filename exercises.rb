@@ -82,3 +82,8 @@ puts coin_toss.count("yes")
 artists.delete_at(2)
 #5
 cities_hash["Moscow"] = 13500000
+
+#exercise 5
+#1
+puts cities_hash.values.sum
+#2
