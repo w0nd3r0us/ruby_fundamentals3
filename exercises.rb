@@ -87,3 +87,6 @@ cities_hash["Moscow"] = 13500000
 #1
 puts cities_hash.values.sum
 #2
+names_hash.each do |n, y|
+  puts "#{n} came out in #{y}."
+end
