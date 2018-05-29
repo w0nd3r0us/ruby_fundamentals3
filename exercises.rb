@@ -219,3 +219,17 @@ end
 #4
 puts "second item: #{grocery_list[1]}"
 #5
+def star_print_array(array)
+  list = ""
+  array.sort.each do |item|
+    list += "-> #{item}\n"
+  end
+  return list
+end
+
+puts star_print_array(grocery_list)
+#6
+grocery_list.delete('salmon')
+
+puts "\n\nnew list:"
+puts star_print_array(grocery_list)
